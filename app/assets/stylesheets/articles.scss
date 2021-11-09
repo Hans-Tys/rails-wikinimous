@@ -1,0 +1,50 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+}
+
+body {
+  margin: 0 auto;
+  width: 900px;
+  text-align: left;
+  background-color: lightgrey;
+}
+
+.article {
+  margin: 16px 0;
+  background-color: rgb(241, 241, 241);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 32px 0;
+}
+
+p{
+  color: black;
+}
+
+.btn-mine {
+  text-decoration: none;
+  background-color: rgb(100, 100, 196);
+  padding: 8px;
+  border-radius: 8px;
+  width: 100px;
+  color: white;
+}
+
+.btn-blue a {
+  color: white;
+}
